@@ -1,7 +1,7 @@
 # AiRobot
 
 #### 介绍 
-AiRobot 中文智能交互数字人引擎框架。
+AiRobot 基于LLMs中文智能交互数字人引擎框架。
  
 #### 安装教程
 - 根据启动过程报错，自行安装缺失的包，主体包参照requirements.txt
@@ -19,7 +19,7 @@ AiRobot 中文智能交互数字人引擎框架。
 
 ```bibtex
 @article{agtabular,
-  title={AiRobot:中文智能交互数字人引擎框架},
+  title={AiRobot:基于LLMs中文智能交互数字人引擎框架},
   author={chengwen}, 
   year={2023}
 }
