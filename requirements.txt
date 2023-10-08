@@ -1,0 +1,9 @@
+pytest-runner==6.0.0
+protobuf==3.20.0
+paddlespeech-ctcdecoders==0.2.1
+paddlespeech==1.0.1
+paddlepaddle==2.3.0
+numba==0.48.0
+playsound==1.3.0
+python-vlc
+
