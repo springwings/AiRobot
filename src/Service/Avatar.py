@@ -90,7 +90,7 @@ class Avatar():
         else:
             self.ref_pose_coeff_path = None
 
-    def __call__(self, audio_path, pose_style=0,  batch_size=2, input_yaw=None,
+    def __call__(self, audio_path, pose_style=0,  batch_size=8, input_yaw=None,
                  input_yaw_list=None, input_pitch_list=None, input_roll_list=None,
                  face3dvis=None, enhancer="gfpgan",
                  background_enhancer=None, size=256, still_mode=False, expression_scale=1.,

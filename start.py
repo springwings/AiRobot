@@ -18,12 +18,12 @@ from queue import Queue
 import threading
 
 from src.Service.ASR import ASR
-from src.Service.Avatar import Avatar
+# from src.Service.Avatar import Avatar
 from src.Service.Camera import Camera
 from src.Service.ChatGpt import ChatGpt
 # from Service.FaceRecognition import FaceRecognition
 from src.Service.Microphone import Microphone
-from src.Service.PlayVideo import PlayVideo
+# from src.Service.PlayVideo import PlayVideo
 from src.Service.TTS import TTS
 from src.utils.Common import formatException, getLogger, is_contain_chinese
 
@@ -47,8 +47,8 @@ class Chat():
         self.processVideoQueue = Queue(maxsize=3)
         self.asr = ASR(basePath)
         self.tts = TTS(basePath)
-        self.playvideo = PlayVideo(basePath)
-        self.avatar = Avatar(basePath+"Tmp", "./avatar.jpg", basePath+"Dist/avatar")
+        # self.playvideo = PlayVideo(basePath)
+        # self.avatar = Avatar(basePath+"Tmp", "./avatar.jpg", basePath+"Dist/avatar")
         self.chatgpt = ChatGpt()
         self.storePath = basePath+"Tmp/"
 
