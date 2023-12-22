@@ -1,10 +1,10 @@
 # AiRobot
 
 #### 介绍 
-AiRobot 基于LLMs中文智能交互数字人引擎框架。
-<video width="640" height="360" controls>
-  <source src="https://github.com/springwings/AiRobot/tree/master/Tmp/example.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+AiRobot 基于LLMs中文智能交互数字人引擎框架。  
+<video width="320" height="240" controls>
+  <source src="https://github.com/springwings/AiRobot/tree/master/Tmp/example.mp4" type="video/mp4"> 
+您的浏览器不支持 video 标签。
 </video>
 
 #### 安装教程
